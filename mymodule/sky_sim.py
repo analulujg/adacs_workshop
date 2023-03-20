@@ -9,7 +9,7 @@ NSRC = 1_000_000
 
 def get_radec():
     """
-    Detarminate Andromeda location
+    Get the location of Andromeda using RA =[d,m,s] and DEC =[h,m,s] and change them into decimal degrees
     """
 
     RA = '00:42:44.3'
