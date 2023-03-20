@@ -29,4 +29,4 @@ for i in range(NSRC):
 with open('catalog.csv', 'w', encoding='utf-8') as f:
     print("id,ra,dec", file=f)
     for i in range(NSRC):
-        print("{0:07d}, {1:12f}, {2:12f}".format(i, RAS[i], DECS[i]), file=f)
+        print(f"{i:07d}, {RAS[i]:12f}, {DECS[i]:12f}", file=f)
