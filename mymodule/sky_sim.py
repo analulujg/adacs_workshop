@@ -94,3 +94,5 @@ if __name__ == "__main__":
     with open('catalog.csv', 'w') as f:
         print("id,ra,dec", file=f)
         np.savetxt(f, np.column_stack((np.arange(NSRC), pos[0,:].T, pos[1,:].T)),fmt='%07d, %12f, %12f')
+
+
